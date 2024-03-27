@@ -84,17 +84,29 @@
       <style>
 
       body {
-          background-color: #55423d;
+          background-color: #271c19;
         }
         
         .name {
           color: #e78fb3;
+          font-size:xx-large;
+          font-family: sans-serif;
         }
         
         .social-icons a {
           color: #ffc0ad;
           text-decoration: none;
           text-align: center;
+          padding-left: 50px;
+          font-size: larger;
+        }
+
+        .social-icons {
+          background-color: #55423d;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 500px;
+          padding-right: 100px;
         }
         
         .icon-image {
@@ -109,8 +121,38 @@
         flex-direction: column;
         gap: 30px;
         max-width: 1500px;
-        align-items: center;
-      }
+        flex-grow: 1;
+      </style>
+
+      <style>
+        .name {
+          color: #fffffe;
+          display: flex;
+          justify-content: center;
+        }
+
+        .banner {
+          display: flex;
+          justify-content: center;
+        }
+
+        .social-icons a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .social-icons {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+        }
+        .icon-image {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+        }
+
       </style>
     </div>
   </body>
